@@ -190,7 +190,7 @@ Sub ShowImagePopup()
     Dim imagePath As String
     
     ' Set the path to the image
-    imagePath = "C:\Users\hasante\Downloads\unameitImages\" + button_clicked + ".jpg"
+    imagePath = "\unameitImages\" + button_clicked + ".jpg"
     
     ' Get the active slide
     Set oSlide = ActivePresentation.Slides(1)
